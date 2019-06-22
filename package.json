@@ -4,7 +4,9 @@
   "private": true,
   "description": "透過練習了解 webpack 解決的事情，並在沒使用 webpack的專案試著導入 webpack。",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "webpack"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Colt/webpack-demo-app.git"
@@ -15,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/Colt/webpack-demo-app/issues"
   },
-  "homepage": "https://github.com/Colt/webpack-demo-app#readme"
+  "homepage": "https://github.com/Colt/webpack-demo-app#readme",
+  "devDependencies": {
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.4"
+  }
 }
