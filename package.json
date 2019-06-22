@@ -1,11 +1,10 @@
 {
   "name": "webpack-demo-app",
   "version": "1.0.0",
-  "description": "",
+  "private": true,
+  "description": "透過練習了解 webpack 解決的事情，並在沒使用 webpack的專案試著導入 webpack。",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Colt/webpack-demo-app.git"
