@@ -7,5 +7,13 @@ module.exports = {
   output: {
     filename: "main.js", // 編譯後的檔名
     path: path.resolve(__dirname, "dist") // 編譯後要放在哪個資料夾
+  },
+  module: {
+    rules: [
+      {
+        test: /\.css$/, // 正則式，$ 用以表示以 .css 結尾的檔案，反斜線是跳脫字元
+        use: ["style-loader", "css-loader"] // 使用 css-loader 來幫忙編譯
+      }
+    ]
   }
 };
